@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #ececec;
+    min-height:100vh ;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    border: 1px solid silver;
+    padding: 50px 50px 20px 50px;
+    row-gap: 15px;
+}
+
+.headerText{
+    color: blue;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.formBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70px;
+}
+
+.formBox label{
+    text-align: left;
+}
+
+.formInput {
+    font-size: 1.2rem;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.formInputError {
+    font-size: 1.2rem;
+    border: 1px solid rgb(230, 19, 19);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(243, 181, 181);
+}
+
+.formInput:focus , .formInputError:focus{
+    outline: none;
+    font-size: 1.2rem;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.formBox span{
+    font-size: 12px;
+    color: red;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.inputCheckbox{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.inputCheckbox input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+/*.inputCheckbox input::checked{*/
+/*    border-radius: 50%;*/
+/*    background-color: blue;*/
+/*    outline: none;*/
+/*}*/
+
+.inputCheckbox label{
+    color: blue;
+    font-size:12px;
+}
+
+.buttonSubmit{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    width: 100%;
+}
+
+.buttonSubmit button{
+    width:fit-content;
+    font-size: 16px;
+    padding: 8px 25px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttonSubmit a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
