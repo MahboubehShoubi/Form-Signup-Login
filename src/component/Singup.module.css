@@ -86,11 +86,6 @@
     border: 1px solid silver;
 }
 
-/*.inputCheckbox input::checked{*/
-/*    border-radius: 50%;*/
-/*    background-color: blue;*/
-/*    outline: none;*/
-/*}*/
 
 .inputCheckbox label{
     color: blue;
@@ -100,7 +95,6 @@
 .buttonSubmit{
     display: flex;
     justify-content: space-between;
-    /*align-items: center;*/
     width: 100%;
 }
 

@@ -1,7 +1,10 @@
 import React , {useState , useEffect} from 'react';
 import {Link} from "react-router-dom";
+
+//CSS
 import Styles from "./Singup.module.css";
 
+//Component and Functions
 import { Validet } from './Validet';
 import { notify } from './toast';
 
